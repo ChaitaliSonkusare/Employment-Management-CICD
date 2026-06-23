@@ -16,11 +16,12 @@ CONTAINER_NAME="employee-container"
 
  stages{
 
-      stage("Code clonning"){
+      stage('Code clonning'){
 
        steps{
-
-          git url: "https://github.com/ChaitaliSonkusare/Employment-Management-CICD.git" , branch: "main"
+          
+        git branch: 'master',     
+          git url: 'https://github.com/ChaitaliSonkusare/Employment-Management-CICD.git'
 }
 }
       stage('Build Application'){
@@ -80,6 +81,11 @@ CONTAINER_NAME="employee-container"
         post{
 
         success{
+
+             echo "Pipeline Successful"
+
+}
+       failure{
 
              echo "Pipeline Failed"
 }
