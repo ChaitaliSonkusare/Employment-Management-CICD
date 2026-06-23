@@ -1,8 +1,8 @@
 # Employee Management CI/CD Pipeline 🚀
 
-## A real-world CI/CD pipeline project for a Spring Boot application using Jenkins, Git, Maven, and Docker.
+ A real-world CI/CD pipeline project for a Spring Boot application using Jenkins, Git, Maven, and Docker.
 
-## This project demonstrates how a DevOps engineer automates application build, testing, containerization, and deployment using Jenkins Declarative Pipeline.
+ This project demonstrates how a DevOps engineer automates application build, testing, containerization, and deployment using Jenkins Declarative Pipeline.
 
 ---
 
